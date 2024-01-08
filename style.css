@@ -1,0 +1,25 @@
+.bannar-image {
+    background-image: url('../Assignment-1/images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.hnew-year {
+padding-top: 177px; 
+color: #f6dd00;
+text-align: center;
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 400;
+}
+
+.Cnew-year{
+padding-left: 344px; 
+padding-right: 344px;   
+color: #f6dd00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+
+}
