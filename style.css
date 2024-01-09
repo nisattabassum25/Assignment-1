@@ -1,3 +1,9 @@
+.body{
+    /* margin-top: 80px;
+    margin-bottom: 80px; */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
 .bannar-image {
     background-image: url('../Assignment-1/images/Banner\ Image.png');
     width: 1320px;
@@ -66,6 +72,7 @@ margin-right: auto;
 background-image: url('../Assignment-1/images/Vectorrr.png');
 padding: 20px 35px 0px 150px;
 margin-top: 120px;
+
 display:flex ;
 align-items: center;
 justify-content: space-between;
@@ -111,11 +118,92 @@ line-height: 30px;
     height: 340px;
     margin-top: 100px;
     padding-top: 100px;
-    font-size: 32px;
+    font-size: 25px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
 }
 
 .point-color{
     color: #F00;
+}
+.sale-content{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.Rectangle-1{
+    /* width: 430px;
+    height: 430px; */
+    padding-left: 890px;
+    display: flex;
+    
+}
+.container{
+    display: grid;
+  grid-template: 50px / auto auto auto;
+  grid-gap: 200px;
+ 
+  padding: 100px;
+}
+.item{
+    width: 150px;
+   height: 200px;
+   }
+
+.Subscribe{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 90px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+
+}
+
+.email{
+    width: 650px;
+    height: 70px;
+    padding-left: 25px;
+border-radius: 50px;
+background: white;
+}
+.button{
+    width: 210px;
+height: 72px;
+color: #FFF;
+padding-left: -50px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+}
+.footer{
+width: 1500px;
+height: 150px;
+background: #070211;
+
+display: grid;
+  grid-template: 100px / auto auto ;
+  grid-gap: 10px;
+  padding: 20px;
+}
+.content{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.contuct{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.icon{
+    background: #070211;
+    display: flex;
+    justify-content: center;
 }
